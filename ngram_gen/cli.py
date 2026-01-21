@@ -9,7 +9,7 @@ from ngram_gen.generate import generate_text
 def main():
 
   if len(sys.argv) < 3:
-    print("Usage: python -m ngram_gen.cli <sample_corpus.txt> <n>"
+    print("Usage:  python -m ngram_gen.cli <sample_corpus.txt> <n>"
     )
     sys.exit(1)
 
